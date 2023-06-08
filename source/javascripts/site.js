@@ -6,7 +6,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     e.preventDefault();
 
     document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'auto' // Change 'smooth' to 'auto' for slower scroll speed
+      behavior: smooth;// Change 'smooth' to 'auto' for slower scroll speed
     });
   });
 });
