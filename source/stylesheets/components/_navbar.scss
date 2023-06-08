@@ -1,24 +1,39 @@
 nav {
-  background-color: #333;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  margin-left: 12px;
+  margin-right: 12px;
+  position: sticky;
+  top: 30px;
+  border-radius: 10px;
 }
 
 nav ul {
   list-style: none;
-  margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-between;
+  width: 80%;
 }
 
 nav ul li {
-  margin-right: 20px;
+  flex: 1; /* Distribute equal width among the list items */
+  margin-right: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove the right margin from the last item */
 }
 
 nav ul li a {
-  color: #fff;
+  color: #333; /* Set text color to dark gray */
   text-decoration: none;
   padding: 10px;
 }
 
 nav ul li a:hover {
-  color: #ff8c00;
+  color: #015A4D;
 }

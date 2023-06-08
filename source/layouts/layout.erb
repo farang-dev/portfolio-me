@@ -8,13 +8,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
-        theme: {
+       theme: {
           extend: {
-            colors: {
-              clifford: '#da373d',
-            }
-          }
-        }
+      fontSize: {
+        '4xl': '2.25rem', // Custom font size for text-4xl
+      },
+      lineHeight: {
+        '4xl': '3.1rem', // Custom line height for text-4xl
+      },
+          },
+        },
       }
     </script>
     <!-- Use the title from a page's frontmatter if it has one -->

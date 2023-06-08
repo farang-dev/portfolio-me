@@ -1,19 +1,14 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
+- name: Verfi
+  description: Verifi is a full-stack web application built with Ruby on Rails, HTML, SCSS, and JavaScript, ensuring secure social media accounts and verified content adherence to guidelines.
+  image: projects/verifi.png
   url: https://www.google.com
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
+- name: Luxifi
+  description: Luxifi is a full-stack web app with user authentication and search functionality for discovering, renting, and managing bookings of designer clothes and items.
+  image: projects/luxifi.png
   url: https://www.google.com
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
+- name: Film Faves
+  description: Film Faves is a full-stack web app for managing movie lists, bookmarking favorites, and accessing detailed information.
+  image: projects/filmfaves.png
   url: https://www.google.com
