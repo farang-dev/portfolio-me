@@ -5,11 +5,11 @@
         <h2 class="text font-extrabold text-4xl mb-2"> Projects</h2>
         <div class="cards">
           <% data.projects.each do |project| %>
-            <div class="mt-2 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="bg-project mt-2 max-w-sm border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="<%= project.url %>" target="_blank">
                 <%= image_tag project.image, class: "rounded-t-lg", alt: "project image" %>
               </a>
-              <div class="p-4 card-text">
+              <div class="p-4 card-text rounded-b-xl">
                 <a href="<%= project.url %>" target="_blank" >
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text"><%= project.name %></h5>
                 </a>
