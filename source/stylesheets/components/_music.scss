@@ -1,20 +1,22 @@
 .music-section {
-  border-top: solid 0.05px #ffffff ;
+  display: flex;
+  align-items: center;
+  border-top: solid 0.05px #ffffff;
   background-color: #015A4D;
-  height: 70px;
-  width: 92.5%;
+  margin-left: -2px;
+  height: 60px;
+  width:99.5%;
 }
 
 .fa-spotify {
   color: rgba(255, 255, 255, 0.6);
   font-size: 38px;
   margin-left: 32px;
-  margin-top: 16px;
+  margin-right: 16px;
 }
 
 .music-text {
-  margin-left: 30px;
-  margin-top: 14px;
+  margin-right: 32px;
   font-size: 14px;
 }
 
@@ -24,4 +26,48 @@
 
 #track-text {
   color: #ffffff;
+}
+
+.music-section img {
+  height: 100%;
+  width: auto;
+}
+
+$breakpoint-tablet-sm: 640px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-desktop-lg: 1280px;
+
+@media (min-width: $breakpoint-tablet-sm) {
+  .music-section {
+    width: 96.5% !important;
+  }
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .music-section {
+    width: 96% !important;
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .music-section {
+    width: 98% !important;
+  }
+
+  #about > p, h2 {
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: center;
+  }
+
+  #projects > h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: $breakpoint-desktop-lg) {
+  .music-section {
+    width: 96.5% !important;
+  }
 }

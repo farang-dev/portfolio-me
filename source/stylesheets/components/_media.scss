@@ -1,0 +1,14 @@
+$breakpoint-desktop: 1024px;
+
+@media (min-width: $breakpoint-desktop) {
+  .two-columns-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  .two-columns-container > * {
+    width: 50%;
+  }
+}
