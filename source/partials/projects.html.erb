@@ -2,13 +2,13 @@
   <div class="col-12">
     <div class="container">
       <div id="projects" class="mx-0.5">
-        <h2 class="text font-extrabold text-4xl mb-3"> Projects</h2>
+        <h2 class="text font-extrabold text-4xl mb-3"> Developments</h2>
         <div class="card-container flex justify-content-center">
           <div class="cards">
             <% data.projects.each do |project| %>
               <div class="card bg-project border-0" style="width: 22rem;">
                 <a href="<%= project.url %>" target="_blank">
-                  <%= image_tag project.image, class: "card-img-top", alt: "project image" %>
+                  <%= image_tag project.image, class: "card-img-top rounded-0", alt: "project image" %>
                 </a>
                 <div class="card-body p-4">
                   <a href="<%= project.url %>" target="_blank" >
