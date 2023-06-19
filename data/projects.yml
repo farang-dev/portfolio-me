@@ -1,17 +1,21 @@
+- name: Word Keeper - JP
+  description: Word Keeper - JP is a fullstack application for Japanese learners, enabling effortless searching and storing of word meanings to expand and maintain vocabulary with simple UI/UX.
+  image: projects/wordkeeper.png
+  url: https://word-keeper-jp-81623e0b05c9.herokuapp.com/
+  github: https://github.com/farang-dev/word-keeper-jp
 - name: Verfi
   description: Verifi is a full-stack web application built with Ruby on Rails, HTML, SCSS, and JavaScript, ensuring secure social media accounts and verified content adherence to guidelines.
   image: projects/verifi.png
   url: https://www.verifi.social/
   github: https://github.com/garveyanne/verifi.social
-
 - name: Luxifi
   description: Luxifi is a full-stack web app with user authentication and search functionality for discovering, renting, and managing bookings of designer clothes and items.
   image: projects/luxifi.png
   url: https://luxifi-mb.herokuapp.com/
   github: https://github.com/farang-dev/luxifi-mb
 
-- name: Film Faves
-  description: Film Faves is a full-stack web app for managing movie lists, bookmarking favorites, and accessing detailed information.
-  image: projects/filmfaves.png
-  url: https://filmfaves.herokuapp.com/
-  github: https://github.com/farang-dev/rails-watch-list
+# - name: Film Faves
+#   description: Film Faves is a full-stack web app for managing movie lists, bookmarking favorites, and accessing detailed information.
+#   image: projects/filmfaves.png
+#   url: https://filmfaves.herokuapp.com/
+#   github: https://github.com/farang-dev/rails-watch-list
