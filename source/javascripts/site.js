@@ -1,10 +1,12 @@
 // This is where it all goes :)
 
-new Typed('#typed',{
-  strings : ['A Web Developer.','Photographer/DJ.', 'UI/UX Designer.'],
-  typeSpeed : 60,
-  delaySpeed : 120,
+document.addEventListener('DOMContentLoaded', function() {
+var typed = new Typed('#typed',{
+  strings : ['Web Developer.', 'UI/UX Designer.'],
+  typeSpeed : 100,
+  delaySpeed : 100,
   loop : true
+  });
 });
 
 // Smooth scrolling for anchor links
@@ -13,7 +15,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     e.preventDefault();
 
     document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: smooth// Change 'smooth' to 'auto' for slower scroll speed
+      behavior: 'smooth'// Change 'smooth' to 'auto' for slower scroll speed
     });
   });
 });
