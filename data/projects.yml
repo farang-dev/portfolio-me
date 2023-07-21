@@ -1,16 +1,21 @@
+- name: Headless CMS Solution
+  description: A dynamic web solution - designed for non-coders, powered by Strapi's headless CMS and React. It offers a user-friendly website experience, enabling easy content updates. Event organizers can effortlessly input info via the Strapi dashboard, generating captivating event listings and detail pages.
+  image: projects/grooveguide.webp
+  url: https://groovy-guide.netlify.app/
+  github: https://github.com/farang-dev/groove-guide
 - name: Word Keeper - JP
   description: Word Keeper - JP is a fullstack application for Japanese learners, enabling effortless searching and storing of word meanings to expand and maintain vocabulary with simple UI/UX.
-  image: projects/wordkeeper.png
+  image: projects/wordkeeper.webp
   url: https://word-keeper-jp-81623e0b05c9.herokuapp.com/
   github: https://github.com/farang-dev/word-keeper-jp
 - name: Verfi
   description: Verifi is a full-stack web application built with Ruby on Rails, HTML, SCSS, and JavaScript, ensuring secure social media accounts and verified content adherence to guidelines.
-  image: projects/verifi.png
+  image: projects/verifi.webp
   url: https://www.youtube.com/watch?v=EoXg2qDphZU&ab_channel=LeWagon
   github: https://github.com/garveyanne/verifi.social
 - name: Luxifi
   description: Luxifi is a full-stack web app with user authentication and search functionality for discovering, renting, and managing bookings of designer clothes and items.
-  image: projects/luxifi.png
+  image: projects/luxifi.webp
   url: https://luxifi-mb.herokuapp.com/
   github: https://github.com/farang-dev/luxifi-mb
 
