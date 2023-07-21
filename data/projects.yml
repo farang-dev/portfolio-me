@@ -1,5 +1,5 @@
 - name: Headless CMS Solution
-  description: A dynamic web solution - designed for non-coders, powered by Strapi's headless CMS and React. It offers a user-friendly website experience, enabling easy content updates. Event organizers can effortlessly input info via the Strapi dashboard, generating captivating event listings and detail pages.
+  description: A dynamic web solution - designed for non-coders, powered by Strapi's headless CMS and React. It offers a user-friendly website experience, enabling easy content updates. Event organizers can effortlessly input info via the Strapi dashboard, generating event listings and detail pages.
   image: projects/grooveguide.webp
   url: https://groovy-guide.netlify.app/
   github: https://github.com/farang-dev/groove-guide
