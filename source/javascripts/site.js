@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 var typed = new Typed('#typed',{
   strings : ['Web Developer.', 'Digital Marketer.', 'UI/UX Designer.'],
-  typeSpeed : 120,
+  typeSpeed : 180,
   delaySpeed : 100,
   loop : true
   });
