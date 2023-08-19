@@ -13,7 +13,7 @@
   image: projects/wordkeeper.webp
   url: https://word-keeper-jp-81623e0b05c9.herokuapp.com/
   github: https://github.com/farang-dev/word-keeper-jp
-- name: Verfi - Content Verification
+- name: Verfi - Content Moderation
   description: Verifi is a full-stack web application built with Ruby on Rails, HTML, SCSS, and JavaScript, ensuring secure social media accounts and verified content adherence to guidelines. I joined this project as a frontend lead.
   image: projects/verifi.webp
   url: https://www.youtube.com/watch?v=EoXg2qDphZU&ab_channel=LeWagon
