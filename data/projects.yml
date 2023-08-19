@@ -4,7 +4,7 @@
   url: http://www.mercer-ai.com/
   github: https://github.com/farang-dev/marcel
 - name: Headless CMS Solution
-  description: A dynamic web solution - designed for non-coders, powered by Strapi's headless CMS and React. It offers a user-friendly website experience, enabling easy content updates.
+  description: A dynamic web solution - designed for non-coders, powered by Strapi's headless CMS and React. This solution offers a user-friendly website experience, enabling easy content updates for non-coders.
   image: projects/grooveguide.webp
   url: https://groovy-guide.netlify.app/
   github: https://github.com/farang-dev/groove-guide
