@@ -1,3 +1,9 @@
+- name: Mercer
+  description:
+Mercer is a web application powered by OpenAI API (GPT), generating emails/texts for text communication platforms. Accelerate your messaging tasks significantly, save time, and enhance communication efficiency.
+  image: projects/mercer.webp
+  url: http://www.mercer-ai.com/
+  github: https://github.com/farang-dev/marcel
 - name: Headless CMS Solution
   description: A dynamic web solution - designed for non-coders, powered by Strapi's headless CMS and React. It offers a user-friendly website experience, enabling easy content updates. Event organizers can effortlessly input info via the Strapi dashboard, generating event listings and detail pages.
   image: projects/grooveguide.webp
