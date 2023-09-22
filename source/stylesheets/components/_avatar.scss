@@ -1,8 +1,9 @@
 .avatar {
   margin: 0px 12px;
-  border-top-left-radius: 80px ;
-  border-top-right-radius: 80px ;
-  width: 92%;
+  border-radius: 80px ;
+  border: 0.5rem solid;
+  border-color: rgb(2,90,77);
+  width: 80%;
 }
 .avatar-large {
   width: 56px;
