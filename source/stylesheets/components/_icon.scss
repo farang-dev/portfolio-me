@@ -1,0 +1,12 @@
+.list-inline-item i {
+  font-size: 48px;
+  line-height: 4rem;
+}
+
+$breakpoint-desktop: 1024px;
+
+@media (min-width: $breakpoint-desktop) {
+  .list-inline {
+    text-align: center;
+  }
+}
