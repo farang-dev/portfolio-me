@@ -3,6 +3,11 @@
   image: projects/mercer.webp
   url: http://www.mercer-ai.com/
   github: https://github.com/farang-dev/marcel
+- name: Chatbot - OpenAI
+  description: Mercer is a web application powered by OpenAI API (GPT), generating emails/texts for text communication platforms. Accelerate your messaging tasks significantly, save time, and enhance communication efficiency.
+  image: projects/chatbot.webp
+  url: http://www.mercer-ai.com/
+  github: https://github.com/farang-dev/marcel
 - name: Headless CMS Solution
   description: A dynamic web solution - designed for non-coders, powered by Strapi's headless CMS and React. This solution offers a user-friendly website experience, enabling easy content updates for non-coders.
   image: projects/grooveguide.webp
